@@ -35,6 +35,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Spinner;
 
 public class ActionBar extends RelativeLayout implements OnClickListener {
 
@@ -48,6 +49,7 @@ public class ActionBar extends RelativeLayout implements OnClickListener {
     private ImageButton mHomeBtn;
     private RelativeLayout mHomeLayout;
     private ProgressBar mProgress;
+	private Spinner mSpinner;
 
     public ActionBar(Context context, AttributeSet attrs) {
         super(context, attrs);
